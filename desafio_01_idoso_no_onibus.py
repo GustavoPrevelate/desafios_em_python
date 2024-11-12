@@ -5,4 +5,11 @@
 
 
 # Crie um sistema em que verifique se o passageiro tem mais de 60 anos, caso tenha ele pode subir sem pagar
-# caso não tenha ele precisa pagar para subir.
+# caso não tenha ele precisa pagar para subir
+
+idade = int(input("Qual sua idade ?")) #coloquei o int para transformar o input em um nº inteiro
+if idade >= 60:
+    print("Pode subir")
+else:
+    print("Precisa pagar")
+
